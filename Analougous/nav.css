@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
-*{
+body{
     margin: 0;
     padding: 0;
     background-color: #1484DE;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23141fde' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23de1484' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23341dde' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23e30071' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23471bde' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23e6005e' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%235619de' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e6004a' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%236317de' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23e30036' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%236e14de' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23de141f' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-background-attachment: scroll;
+background-attachment: fixed;
 background-size: cover;
 }
 .nav{
@@ -51,4 +51,53 @@ button{
 
 button:hover {
     background-color: #cc4d1e;
+}
+.cont-1 {
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    position: relative;
+    top: 80px;
+    gap: 10px;
+    
+}
+.cont-1 > div{
+    border: black 1px solid;
+}
+.pic{
+    background-image: url(ban.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+.contHead{
+    text-align: center;
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+    color: aliceblue;
+    background-color: #6e14de;
+
+}
+.cont{
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 100;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.cont-2 {
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1.5fr ;
+    position: relative;
+    top: 200px;
+    gap: 10px;
+    
+}
+.cont-2 > div{
+    border: black 1px solid;
 }
