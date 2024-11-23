@@ -66,8 +66,9 @@ button:hover {
     border: black 1px solid;
 }
 .pic{
-    background-image: url(ban.jpg);
+    background-image: url(xcvbnm.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     
     
 }
@@ -100,4 +101,20 @@ button:hover {
 }
 .cont-2 > div{
     border: black 1px solid;
+}
+#buck{
+    animation: fadeIn 0.5s ease-in-out;
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
