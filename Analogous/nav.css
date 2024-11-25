@@ -66,7 +66,7 @@ button:hover {
     border: black 1px solid;
 }
 .pic{
-    background-image: url(xcvbnm.jpg);
+    background-image: url(https://images.photowall.com/products/64788/brick-wall-graffiti-blue.jpg?h=699&q=85);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -107,14 +107,61 @@ button:hover {
     
 }
 
+
+
+.pic-2{
+    
+        background-image: url(https://images.fineartamerica.com/images-medium-large-5/blue-graffiti-square-cindy-lindow.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    
+}
+/* Add button styles */
+button {
+    background-color: #2505a5;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: "Sedgwick Ave", cursive;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cc4d1e;
+    transform: scale(1.1);
+}
+
+
+.fade-in {
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateX(-30px);
     }
-
     to {
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+
+.fade-in {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.fade-in.is-visible {
+    opacity: 1;
+    transform: translateX(0);
 }
